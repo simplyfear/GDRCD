@@ -8,7 +8,7 @@ IMPORTANTE! non cancellate alcuna delle righe, ne modificate quanto scritto tra 
 $MESSAGE['homepage']['main_content']['site_title'] = '<img src="imgs/logo_gdrcd.png" alt="GDRCD"/>';
 $MESSAGE['homepage']['main_content']['site_subtitle'] = 'Il CMS Open Source per i Giochi di Ruolo play-by-chat';
 $MESSAGE['homepage']['main_content']['welcome'] = 'Benvenuto in GDRCD!';
-$MESSAGE['homepage']['main_content']['infos'] = 'Prima di iniziare a realizzare il tuo sito, hai letto la LICENZA D\'USO che accompagna il prodotto? Se non l\'hai ancora fatto premurati gentilmente di leggerla. Troverai le istruzioni su come utilizzare  GDRCD 5.4 nel manuale allegato. Buon diverimento!';
+$MESSAGE['homepage']['main_content']['infos'] = 'Prima di iniziare a realizzare il tuo sito, hai letto la LICENZA D\'USO che accompagna il prodotto? Se non l\'hai ancora fatto premurati gentilmente di leggerla. Troverai le istruzioni su come utilizzare  GDRCD 5.4 nel manuale allegato. Buon divertimento!';
 /*Box informativi*/
 $MESSAGE['homepage']['forms']['access_to'] = 'Accedi';
 $MESSAGE['homepage']['forms']['username'] = 'User';
@@ -29,10 +29,10 @@ $MESSAGE['homepage']['info']['email'] = 'Contatti';
 $MESSAGE['homepage']['installer']['not_empty'] = 'Database già esistente.';
 $MESSAGE['homepage']['installer']['done'] = 'Database aggiornato.';
 $MESSAGE['homepage']['installer']['install_title'] = 'Installazione Database GDRCD';
-$MESSAGE['homepage']['installer']['install_text'] = 'Vuoi procedere con l&#039;installazione del database di GDRCD?';
+$MESSAGE['homepage']['installer']['install_text'] = 'Vuoi procedere con la installazione del database di GDRCD?';
 $MESSAGE['homepage']['installer']['migrate'] = 'Riporta il database alla seguente versione';
 $MESSAGE['homepage']['installer']['migrate_warn'] = 'ATTENZIONE: questa funzione ripristina solo le struttura del database, non può ripristinare dati che sono stati cancellati';
-$MESSAGE['homepage']['installer']['install_text'] = 'Vuoi procedere con l&#039;installazione del database di GDRCD?';
+$MESSAGE['homepage']['installer']['install_text'] = 'Vuoi procedere con la installazione del database di GDRCD?';
 $MESSAGE['installer']['instal'] = "Installa il database.";
 $MESSAGE['homepage']['updater']['done'] = 'Il Database è stato reso compatibile con GDRCD5.4';
 $MESSAGE['homepage']['updater']['update'] = 'Aggiorna adesso il database.';
@@ -73,18 +73,18 @@ $MESSAGE['register']['rules_read'] = 'L\'utente dichiara inoltre di aver preso v
 /* Benvenuti */
 $MESSAGE['register']['welcome']['message']['subject'] = 'Registrazione a';
 $MESSAGE['register']['welcome']['message'][0] = 'Lo staff di';
-$MESSAGE['register']['welcome']['message'][1] = 'ti da il benvenuto e ti augura buon divertimento!';
+$MESSAGE['register']['welcome']['message'][1] = 'ti dà il benvenuto e ti augura buon divertimento!';
 $MESSAGE['register']['welcome']['message'][2] = 'Il tuo account è...';
 $MESSAGE['register']['welcome']['message']['user'] = 'Nome personaggio:';
 $MESSAGE['register']['welcome']['message']['pass'] = 'Password:';
 $MESSAGE['register']['welcome']['message']['ok'] = 'completata!';
 $MESSAGE['register']['welcome']['back'] = 'Torna alla';
-$MESSAGE['register']['welcome']['message'][3] = 'Il tuo username e la tua password ti sono stati inviati per email all\'indirizzo';
-$MESSAGE['register']['welcome']['message'][4] = 'Lo staff è lieto di darti il benvenuto e ti augura buon divertimento! Hai già letto l\ambientazione ed il regolameto? Se non è così ti invitiamo a farlo al più presto!.';
+$MESSAGE['register']['welcome']['message'][3] = 'Il tuo username e la tua password sono stati inviati per email all\'indirizzo';
+$MESSAGE['register']['welcome']['message'][4] = 'Lo staff è lieto di darti il benvenuto e ti augura buon divertimento! Hai già letto l\ambientazione ed il regolamento? Se non è così ti invitiamo a farlo al più presto!.';
 /* Errori */
 $MESSAGE['register']['error']['name_taken'] = 'Il nome scelto è già in uso.';
 $MESSAGE['register']['error']['email_taken'] = 'Esiste già un account registrato con questa e-mail.';
-$MESSAGE['register']['error']['email_needed'] = 'Specificare un\'email valida.';
+$MESSAGE['register']['error']['email_needed'] = 'Specificare una email valida.';
 $MESSAGE['register']['error']['invalid_name'] = 'Il nome scelto è non valido.';
 
 
@@ -103,7 +103,7 @@ $MESSAGE['logout']['logbackin'] = 'Per rientrare nel gioco tornare alla';
 $MESSAGE['interface']['layout_not_found'] = 'Modulo non trovato';
 $MESSAGE['interface']['page_missing'] = 'Parametro pagina mancante';
 $MESSAGE['interface']['page_not_found'] = 'Pagina non trovata';
-$MESSAGE['interface']['multiple_page_found'] = 'Non e stato possibile determinare la pagina, una o piu pagine vanno in conflitto';
+$MESSAGE['interface']['multiple_page_found'] = 'Non è stato possibile determinare la pagina, una o più pagine vanno in conflitto';
 
 
 /**    * Termine inserimento
@@ -455,7 +455,7 @@ $MESSAGE['interface']['administration']['locations']['is_chat'] = 'Chat';
 $MESSAGE['interface']['administration']['locations']['is_chat_info'] = 'Spuntare se la stanza è adibita a chat, altrimenti specificare nel campo "pagina" il file da caricare nel riquadro principale';
 $MESSAGE['interface']['administration']['locations']['image'] = 'Nome del file immagine';
 $MESSAGE['interface']['administration']['locations']['image_info'] = 'Specificare il nome del file da utilizzare come immagine che deve essere posizionato nella cartella imgs/locations del tema scelto.';
-$MESSAGE['interface']['administration']['locations']['screen_name'] = 'Nome vistualizzato nell\'elenco presenti';
+$MESSAGE['interface']['administration']['locations']['screen_name'] = 'Nome visualizzato nell\'elenco presenti';
 $MESSAGE['interface']['administration']['locations']['screen_name_info'] = 'Se specificato, il nome in questa casella viene visualizzato nell\'elenco presenti al posto del nome della stanza';
 $MESSAGE['interface']['administration']['locations']['map_id'] = 'Mappa di appartenenza';
 $MESSAGE['interface']['administration']['locations']['map_id_default'] = 'Nessuna';
@@ -463,7 +463,7 @@ $MESSAGE['interface']['administration']['locations']['map_id_err'] = 'Non esisto
 $MESSAGE['interface']['administration']['locations']['x'] = 'Coordinate del link sulla mappa (x)';
 $MESSAGE['interface']['administration']['locations']['y'] = 'Coordinate del link sulla mappa (y)';
 $MESSAGE['interface']['administration']['locations']['is_privat'] = 'Stanza privata';
-$MESSAGE['interface']['administration']['locations']['is_privat_info'] = 'Spuntare per rendere privata la stanza e specificare il proprietario o il gruppo di appartenenza, la scadenza ed il costo di affitto, altrimenti lasciare bianchi i campi seguenti.';
+$MESSAGE['interface']['administration']['locations']['is_privat_info'] = 'Spuntare per rendere privata la stanza e specificare il proprietario o il gruppo di appartenenza, la scadenza ed il costo di affitto, altrimenti lasciare bianchi i campi seguenti';
 $MESSAGE['interface']['administration']['locations']['owner'] = 'Proprietario';
 $MESSAGE['interface']['administration']['locations']['owner_default'] = 'Nessuno';
 $MESSAGE['interface']['administration']['locations']['owner_err'] = 'Nessun gruppo o utente presente.';
@@ -542,7 +542,7 @@ $MESSAGE['interface']['administration']['races']['link']['back'] = 'Torna all\'e
 $MESSAGE['interface']['administration']['races']['link']['new'] = 'Crea una nuova ' . strtolower($PARAMETERS['names']['race']['sing']) . '';
 /*Gilde*/
 $MESSAGE['interface']['administration']['guilds']['page_name'] = 'Gestione ' . strtolower($PARAMETERS['names']['guild_name']['plur']) . ' e ruoli';
-$MESSAGE['interface']['administration']['guilds']['link']['jobs'] = 'Gestici i lavori indipentendi';
+$MESSAGE['interface']['administration']['guilds']['link']['jobs'] = 'Gestici i lavori indipendenti';
 $MESSAGE['interface']['administration']['guilds']['link']['new'] = 'Crea una nuova ' . strtolower($PARAMETERS['names']['guild_name']['sing']) . '';
 $MESSAGE['interface']['administration']['guilds']['link']['new_role'] = 'Gestisci i lavori indipendenti';
 $MESSAGE['interface']['administration']['guilds']['link']['back'] = 'Torna all\'elenco';
@@ -706,7 +706,7 @@ $MESSAGE['installer']['install'] = "Esegui l\'installazione automatica";
 /********** MESSAGGI DI ERRORE **********/
 $MESSAGE['error']['db_not_found'] = 'Impossibile trovare il database, verificare l\'installazione di GDRCD.';
 $MESSAGE['error']['db_empty'] = 'Il database non contiene tabelle, è necessario effettuare l\'installazione';
-$MESSAGE['error']['db_not_updated'] = 'E\' stata rilevata l\'installazione di Mr Fabers GDRCD5, per aggiornare il database e renderlo compatibile proseguire cliccando sul link sottostante';
+$MESSAGE['error']['db_not_updated'] = 'È stata rilevata l\'installazione di Mr Fabers GDRCD5, per aggiornare il database e renderlo compatibile proseguire cliccando sul link sottostante';
 $MESSAGE['error']['can_t_load_frame'] = 'Impossibile caricare la pagina.';
 $MESSAGE['error']['can_t_find_any_map'] = 'Nessuna mappa esistente.';
 $MESSAGE['error']['can_t_find_main_map'] = 'Non è stata impostata una mappa principale. Prima di procedere, impostane una nella sezione di Gestione.';
@@ -721,7 +721,7 @@ $MESSAGE['error']['existing_name'] = 'Nome già in uso.';
 $MESSAGE['error']['unknown_username'] = 'Utente o password non riconosciuti.';
 $MESSAGE['error']['unknown_username_details'] = 'Eseguire di nuovo la procedura di login.';
 $MESSAGE['error']['unknown_username_failure_count'] = 'Fallimento numero:';
-$MESSAGE['error']['unknown_username_warning'] = 'Con 10 fallimenti consecutivi sarà interdetto l\'accessola dalla postazione corrente.';
+$MESSAGE['error']['unknown_username_warning'] = 'Con 10 fallimenti consecutivi sarà interdetto l\'accesso dalla postazione corrente.';
 
 
 /********** INFORMAZIONI E SUGGERIMENTI **********/
