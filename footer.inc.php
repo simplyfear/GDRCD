@@ -45,7 +45,7 @@ if(isset($handleDBConnection)) {
     unset($handleDBConnection);
 }
 
-/**    * Per ottimizzare le risorse impiegate le liberiamo dopo che non ne abbiamo pi� bisogno
+/**    * Per ottimizzare le risorse impiegate le liberiamo dopo che non ne abbiamo più bisogno
  * @author Blancks
  */
 unset($MESSAGE);
